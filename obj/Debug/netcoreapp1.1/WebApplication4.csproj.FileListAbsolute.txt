@@ -6,6 +6,3 @@ c:\users\satyam kumar\documents\visual studio 2017\Projects\WebApplication4\WebA
 c:\users\satyam kumar\documents\visual studio 2017\Projects\WebApplication4\WebApplication4\bin\Debug\netcoreapp1.1\WebApplication4.pdb
 c:\users\satyam kumar\documents\visual studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp1.1\WebApplication4.dll
 c:\users\satyam kumar\documents\visual studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp1.1\WebApplication4.pdb
-C:\Users\Satyam Kumar\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp1.1\WebApplication4.csprojAssemblyReference.cache
-C:\Users\Satyam Kumar\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp1.1\WebApplication4.csproj.CoreCompileInputs.cache
-C:\Users\Satyam Kumar\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp1.1\WebApplication4.AssemblyInfoInputs.cache
