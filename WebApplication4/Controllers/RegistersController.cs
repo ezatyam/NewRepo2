@@ -49,6 +49,26 @@ namespace WebApplication4.Controllers
             return Ok(register);
         }
 
+        // GET: api/Registers/test/test
+        [HttpGet("{username}/{password}")]
+
+        public async Task<IActionResult> GetRegister([FromRoute] string username, [FromRoute] string password)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var register = await _context.Register.SingleOrDefaultAsync(m => m.Email == username && m.Password==password);
+
+            if (register == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(register);
+        }
+
         // PUT: api/Registers/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutRegister([FromRoute] int id, [FromBody] Register register)
